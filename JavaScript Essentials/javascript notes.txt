@@ -1,0 +1,94 @@
+Browser has 3 main components
+
+DOM Parser - Takes html code and converts it to structured page that we visually see.
+
+CSS Parser - Takes CSS code and makes sure our document layout is rendered correctly
+
+Layout Engine - 
+
+JavaScript Engine
+
+Keys and value pairs of nouns and adjectives that describe an object are called properties
+
+Altamash is an object and it's properties are
+{
+  height: "5'9",
+  weight: "60 kgs",
+  colour: "Brown",
+}
+
+
+Verbs are functions that tells us what an object can do and
+Functions contained within an object are called methods
+
+Altamash is an object and it's methods can be
+{
+  run: function() - Altamash can run
+  stand: function() - Altamash can stand
+  talk: function() - Altamash can talk
+}
+
+Hierarchy of objects:
+Multiple Sub-Objects that have their own set properties and methods, within a parent object is called Hierarchy of objects.
+
+Altamash is an object. While hands, legs, head etc. are it's sub objects
+
+Altamash
+{
+  hands {
+	fingers: 5,
+	writes: function() - To write something hand is used
+  }
+
+}
+
+
+Primitives means basic data
+String Type - anything written between "" or '' is a string
+"Altamash"
+"Altamash says \"hello\" that's it"
+"My name is 'Altamash'"
+
+Number Type
+Integer - whole numbers
+Floating type numbers - numbers with a decimal point
+
+Boolean 
+has two values True or False
+
+Null 
+
+Undefined
+
+NaN
+
+
+Variables - 
+It is like a box where we can store something in computer memory and assign an address to it to retrieve values stored in the box later using that assigned address.
+JavaScript is a loosely typed language. It means variables in it can be reassigned to different datatypes as required easily.
+
+Constant - is something that does not change and remains same forever.
+
+Symbols table - is like a database that contains all the symbols. It's like a gaint box or warehouse that contains all the boxes with names. 
+Window object is like a giant box that contains all the boxes/names that we can use to find the right symbols and it's value.
+
+
+MDN JavaScript operator precedence website.
+
+Operators are predefined functions in the JIT compiler. Operators have a ceratin precedence when executed.
+
+JIT (Just in Time) compiler is a javascript compiler that takes javascript code converts to machine code during execution. 
+
+
+Polymorphism - takes more than one form / it changes and adapts itself like clay.
+String always takes the precedence.
+
+
+Functions / subroutines are tasks that are to be done at a certain point of time. It is like we define a routine it's in our mind and our mind can adapt to it depending on what we are doing. We can invoke that routine and we perform the action and keep changing it as we go along
+
+Arguments are values
+
+Parameters are variables/ empty boxes that are waiting to store data and we can use this data in our subroutines.
+
+It makes it adaptable so that we don't have to write every subroutine for different combination.
+
